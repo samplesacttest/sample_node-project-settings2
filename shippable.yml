@@ -41,6 +41,7 @@ after_script:
 
 notifications:  
   irc: 
+    on_success: always
     pull_requests: true
     channels:
       - "chat.freenode.net#test-irc"
